@@ -1,0 +1,35 @@
+.form_container-login {
+    width: 30%;
+}
+
+@media screen and (max-width: 850px){
+    .form_container-login{
+        width: 90%;
+    }
+}
+
+/* .t-image-login{
+    height: 70px;
+    overflow: hidden;
+    border-radius: 7px;
+  
+  } */
+
+
+/*     
+  .t-image-login img{
+    width: 100%;
+    height: 100%;
+    transition: 0.3s ease-in-out;
+    border-radius: 7px;
+  }
+  
+  .t-image-login:hover img{
+    transform: scale(1.3);
+  } */
+
+/* @media screen and (max-width: 700px){
+    .form_container{
+        width: 65%;
+    }
+} */

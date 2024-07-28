@@ -1,0 +1,194 @@
+
+.appointmentwaiting-home {
+    margin-top: 208px;
+}
+
+.appointmentwaiting-sidebar {
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+}
+
+.appointmentwaiting-content {
+    overflow-y: auto;
+    margin-left: 255px;
+    background-color: #f8f9fa;
+    /* width: 50; */
+    height: 100vh;
+    flex-grow: 1;
+}
+
+.appointmentwaiting-home .appointmentwaiting-content .appointmentwaiting-col-md-3 {
+    border: 3px solid white;
+}
+
+.appointmentwaiting-content button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+
+.appointmentwaiting-table {
+    flex-grow: 1;
+    overflow-y: auto;
+    padding: 1.5rem;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 0.5rem;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .reschedule-btn {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+  }
+  
+  /* .pre-journey {
+    color: #3b82f6;
+  }
+  
+  .confirmed {
+    color: #4caf50;
+  }
+  
+  .waiting-for-confirmation {
+    color: #fbbf24;
+  } */
+
+  .status-badge {
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .status-badge.waiting {
+    background-color: #F3CA52; /* Yellow color for "Waiting for approval" status */
+    color: #333;
+  }
+  
+  .status-badge.approved {
+    background-color: #0A6847; /* Green color for "Approved" status */
+    color: #fff;
+  }
+
+
+  .action-button {
+    background-color: transparent;
+    color: inherit;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 4px;
+  }
+  
+  .action-button.waiting {
+    color: #fff;
+    background-color: #0A6847; /* Green color for "Approved" status */
+
+  }
+  
+  .action-button.approved {
+    background-color: #F3CA52; /* Yellow color for "Waiting for approval" status */
+    color: #333;
+  }
+  
+
+
+  .chat-history .chat-card {
+    margin-bottom: 24px; /* ปรับค่าตามต้องการ */
+  }
+
+  .chat-history .chat-card {
+    border: 1px solid #ccc; /* ปรับสีตามต้องการ */
+    padding: 16px; /* ปรับค่าตามต้องการ */
+  }
+
+
+  .chat-history .chat-card h4 {
+    font-size: 18px; /* ปรับค่าตามต้องการ */
+  }
+  
+  .chat-history .chat-card p {
+    font-size: 14px; /* ปรับค่าตามต้องการ */
+  }
+
+  .chat-history {
+    overflow-y: scroll;
+    height: 400px; /* ปรับความสูงตามต้องการ */
+  }
+
+
+
+  .dialog-chat-decision {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .dialog-content-chat-decision {
+    padding: 16px; /* Add padding for content within the dialog */
+  }
+
+
+  /* .absolute {
+    position: absolute;
+  }
+  .bottom-2 {
+    bottom: 0.5rem;
+  }
+  .right-2 {
+    right: 0.5rem;
+  } */
+
+  /* Button styles */
+.delete-button {
+  background-color: #dc3545;
+  color: #fff;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  margin-right: 0.5rem;
+  transition: background-color 0.3s ease;
+}
+
+.delete-button:hover {
+  background-color: #c82333;
+}
+
+.reply-button {
+  background-color: #007bff;
+  color: #fff;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  transition: background-color 0.3s ease;
+}
+
+.reply-button:hover {
+  background-color: #0056b3;
+}
+
+/* Button container */
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}

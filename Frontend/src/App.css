@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+.testpicture{
+  color: #2a2a2a;
+  background-image: url('https://images.unsplash.com/photo-1576091160550-2173dba999ef?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-size: cover; /* ปรับขนาดรูปภาพให้พอดีกับพื้นที่ */
+  background-position: center; /* จัดตำแหน่งรูปภาพให้อยู่ตรงกลาง */
+  background-repeat: no-repeat; /* ป้องกันรูปภาพซ้ำ */
+  min-height: 100vh; /* กำหนดความสูงขั้นต่ำให้เท่ากับความสูงของหน้าจอ */
+  /* เพิ่มเติม */
+  display: flex; /* ตั้งค่าให้ div เป็น flexbox container */
+  align-items: center; /* จัดแนวตั้งให้ไอเท็มภายใน flexbox อยู่ตรงกลาง */
+  justify-content: center; /* จัดแนวนอนให้ไอเท็มภายใน flexbox อยู่ตรงกลาง */
+}
+

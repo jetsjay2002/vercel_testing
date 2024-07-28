@@ -1,0 +1,50 @@
+/* .patientlist-header {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    background-color: #FFE8C8;;
+}
+
+.patientlist-header img {
+    width: 200px;
+    height: 150px;
+}
+ */
+
+
+ .patientlist-header {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    background-image: url('https://cdn.pixabay.com/photo/2021/10/11/17/37/doctor-6701410_1280.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #ffffff;
+    padding: 20px;
+}
+
+.text-frame {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background for the text frame */
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+    /* display: inline-block; */
+    /* padding: 10px 20px; */
+/* .text-frame h2 {
+    background-color: rgba(0, 0, 0, 0.5); 
+    border-radius: 10px;
+}  */
+
+.front-page {
+    font-weight: bold;
+}
+
+.thin {
+    font-weight: 300;
+} 
+
+
+

@@ -1,0 +1,68 @@
+/* ToggleSwitchForm.css */
+
+.toggle-switch-travel-companion {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  .toggle-switch-travel-companion input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .switch-travel-companion {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 34px;
+  }
+  
+  .switch-travel-companion:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 50%;
+  }
+  
+  input-travel-companion:checked + .switch {
+    background-color: #2196F3;
+  }
+  
+  input-travel-companion:focus + .switch {
+    box-shadow: 0 0 1px #2196F3;
+  }
+
+  .radio-group-travel-companion {
+    display: flex;
+    align-items: center;
+  }
+  
+  .radio-group-travel-companion label {
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Add some space between the radio button and its label */
+  .radio-group-travel-companion input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+  /* input:checked + .switch:before {
+    -webkit-transform:
+  } */

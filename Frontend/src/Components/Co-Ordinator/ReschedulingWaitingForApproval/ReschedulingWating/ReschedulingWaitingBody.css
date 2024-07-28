@@ -1,0 +1,379 @@
+
+.ReschedulingWaitingBody-home {
+    margin-top: 208px;
+}
+
+.ReschedulingWaitingBody-sidebar {
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+}
+
+.ReschedulingWaitingBody-content {
+    overflow-y: auto;
+    margin-left: 255px;
+    background-color: #f8f9fa;
+    /* width: 50; */
+    height: 100vh;
+    flex-grow: 1;
+}
+
+.ReschedulingWaitingBody-home .ReschedulingWaitingBody-content .ReschedulingWaitingBody-col-md-3 {
+    border: 3px solid white;
+}
+
+
+.ReschedulingWaitingBody-content button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.ReschedulingWaitingBody-table {
+    flex-grow: 1;
+    overflow-y: auto;
+    padding: 1.5rem;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 0.5rem;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .reschedule-btn {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+  }
+  
+  /* .pre-journey {
+    color: #3b82f6;
+  }
+  
+  .confirmed {
+    color: #4caf50;
+  }
+  
+  .waiting-for-confirmation {
+    color: #fbbf24;
+  } */
+
+
+  .changeappointment-dialog-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  
+  .close-button-changeappointment {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  
+  .dialog-container-changeappointment {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .dialog-changeappointment {
+    background-color: #f36767;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(228, 114, 114, 0.5);
+  }
+  
+  .dialog-content-changeappointment {
+    position: relative;
+  }
+  
+  
+  /* .dialog-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } */
+  
+  .dialog-card-changeappointment {
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+  }
+  
+  
+  .dialog-form-changeappointment {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .dialog-form-changeappointment form {
+    padding-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+  }
+  
+  .dialog-form-changeappointment input {
+    height: 3rem;
+    padding: 0 1rem;
+    margin-bottom: 2rem;
+    border-radius: 0.3rem;
+    border: 1px solid #2a2a2a;
+  }
+  
+  
+  .dialog-form-changeappointment select {
+    height: 3rem;
+    padding: 0 1rem;
+    margin-bottom: 2rem;
+    border-radius: 0.3rem;
+    border: 1px solid #2a2a2a;
+  }
+  
+  .dialog-form-changeappointment button {
+    display: inline;
+    width: 350px;
+    margin: 10px;
+    background-color: #02070d;
+    color:#f2f2f2;
+  }
+  
+  .dialog-form-changeappointment:hover button {
+    background-color: #c82333;
+  }
+  
+
+
+
+
+
+
+
+
+.chat-decision-dialog-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+
+.close-button-chat-decision {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+
+.dialog-container-chat-decision {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dialog-chat-decision {
+  background-color: #A67B5B;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(228, 114, 114, 0.5);
+}
+
+.dialog-content-chat-decision {
+  position: relative;
+}
+
+
+/* .dialog-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.dialog-card-chat-decision {
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  width: 100vh;
+}
+
+
+.dialog-form-chat-decision {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dialog-form-chat-decision form {
+  padding-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: auto;
+}
+
+.dialog-form-chat-decision input {
+  height: 3rem;
+  padding: 0 1rem;
+  margin-bottom: 2rem;
+  border-radius: 0.3rem;
+  border: 1px solid #2a2a2a;
+  width: 100%;
+}
+
+
+.dialog-form-chat-decision textarea {
+  height: 7rem;
+  width: 14rem;
+  padding: 0 1rem;
+  margin-bottom: 2rem;
+  border-radius: 0.3rem;
+  border: 1px solid #2a2a2a;
+  width: 100%;
+}
+
+.dialog-form-chat-decision button {
+  display: inline;
+  width: 200px;
+  margin: 10px;
+  background-color: #02070d;
+  color:#f2f2f2;
+}
+
+.dialog-form-chat-decision:hover button {
+  background-color: #c82333;
+}
+
+
+.status-badge-reschedule {
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.status-badge-reschedule.waiting {
+  background-color: #F3CA52; /* Yellow color for "Waiting for approval" status */
+  color: #333;
+}
+
+.status-badge-reschedule.approved {
+  background-color: #0A6847; /* Green color for "Approved" status */
+  color: #fff;
+}
+
+
+.action-button-reschedule {
+  background-color: transparent;
+  color: inherit;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.action-button-reschedule.waiting {
+  color: #fff;
+  background-color: #0A6847; /* Green color for "Approved" status */
+
+}
+
+.action-button-reschedule.approved {
+  background-color: #F3CA52; /* Yellow color for "Waiting for approval" status */
+  color: #333;
+}
+
+
+
+
+
+.chat-history .chat-card {
+  margin-bottom: 24px; /* ปรับค่าตามต้องการ */
+}
+
+.chat-history .chat-card {
+  border: 1px solid #ccc; /* ปรับสีตามต้องการ */
+  padding: 16px; /* ปรับค่าตามต้องการ */
+}
+
+
+.chat-history .chat-card h4 {
+  font-size: 18px; /* ปรับค่าตามต้องการ */
+}
+
+.chat-history .chat-card p {
+  font-size: 14px; /* ปรับค่าตามต้องการ */
+}
+
+.chat-history {
+  overflow-y: scroll;
+  height: 400px; /* ปรับความสูงตามต้องการ */
+}
+
+
+
+.dialog-chat-decision {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.dialog-content-chat-decision {
+  padding: 16px; /* Add padding for content within the dialog */
+}

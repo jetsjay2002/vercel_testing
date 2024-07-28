@@ -1,0 +1,43 @@
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* High z-index to be on top */
+  }
+  
+  .modal-content {
+    background-color: #fff;
+    width: 90%; /* Makes the modal width responsive to the screen size */
+    max-width: 300px; /* Ensures modal isn't too wide on mobile screens */
+    padding: 4vw; /* Responsive padding */
+    border-radius: 10px;
+    text-align: center;
+    z-index: 1001; /* Ensures modal content is above the modal background */
+    position: relative; /* Allows z-index to take effect */
+  }
+  
+  .modal-button {
+    border: 2px solid #FF0000; /* Red border */
+    border-radius: 20px;
+    padding: 2vw 4vw; /* Responsive padding */
+    margin: 10px;
+    font-size: 4vw; /* Responsive font size */
+    background: none;
+    cursor: pointer;
+    outline: none; /* Removes the default focus outline */
+  }
+  
+  /* Use media queries for larger screen adjustments if necessary */
+  @media (min-width: 768px) {
+    .modal-button {
+      padding: 10px 20px; /* Adjust for larger screens if necessary */
+      font-size: 16px; /* Adjust for larger screens if necessary */
+    }
+  }
+  

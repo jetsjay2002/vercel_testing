@@ -1,0 +1,61 @@
+/* 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  .app {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .select-package-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .overlay {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .modal {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 90%; 
+    max-width: 400px; 
+  }
+  
+  .option-button {
+    display: block;
+    width: 80%;
+    padding: 10px;
+    margin: 10px auto; 
+    font-size: 16px;
+  }
+  
+  .close-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 20px;
+    background: red;
+    color: white;
+    border: none;
+  }
+  
+  @media (max-width: 480px) {
+    .modal {
+      width: 95%; 
+   
+    }
+}   */

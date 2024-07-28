@@ -1,0 +1,99 @@
+.travel-card-process-treat {
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 20px;
+  /* box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1); */
+  max-width: 300px; /* Adjust as needed for your layout */
+  margin: auto;
+  font-family: Arial, sans-serif;
+  /* text-align: start; */
+  box-shadow: 0 5px 25px 2px rgba(0, 0, 0, 0.11);
+  /* border-radius: 7px; */
+  /* cursor: pointer; */
+}
+.card-container-process-treat{
+  height: 80vh;
+}
+
+.travel-card-header-process-treat {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+
+.text-process-treat{
+  margin-top: 50px; /* Adjust this value to match the height of your navbar */
+  color: #fff;
+}
+
+.plane-icon-process-treat {
+  /* Placeholder for the plane icon */
+  width: 40px;
+  height: 40px;
+  /* background: orange; */
+  /* mask: url('/path-to-your-plane-icon.svg') no-repeat 50% 50%; */
+  /* -webkit-mask: url('/path-to-your-plane-icon.svg') no-repeat 50% 50%; */
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.travel-card-body-process-treat {
+  border-top: 2px dashed #ccc;
+  border-bottom: 2px dashed #ccc;
+  padding: 10px 0;
+}
+
+/* .travel-card-status {
+  color: green;
+  margin: 10px 0;
+} */
+.travel-card-status-process-treat p {
+  background-color: #e0e0e0;
+  color:  green;
+  padding: 10px;
+  border-radius: 15px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin: 10px 0;
+}
+
+.onboard-button-process-treat {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  outline: none;
+}
+
+.travel-card-buttons-process-treat .btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: none;
+  border-radius: 15px;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn-green-process-treat {
+  background-color: #7b7d7b;
+}
+
+.btn-red-process-treat {
+  background-color: #F44336;
+}
+
+/* Add responsiveness to the card for better mobile viewing */
+@media (max-width: 600px) {
+  .travel-card-process-treat {
+    width: 90%;
+    
+  }
+}

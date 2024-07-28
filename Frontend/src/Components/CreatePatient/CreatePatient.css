@@ -1,0 +1,98 @@
+.app-create-patient {
+    width: 100%;
+    max-width: 400px; 
+    color: #2a2a2a;
+    background-image: url('https://images.unsplash.com/photo-1576091160550-2173dba999ef?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover; /* ปรับขนาดรูปภาพให้พอดีกับพื้นที่ */
+    background-position: center; /* จัดตำแหน่งรูปภาพให้อยู่ตรงกลาง */
+    background-repeat: no-repeat; /* ป้องกันรูปภาพซ้ำ */
+    min-height: 100vh; /* กำหนดความสูงขั้นต่ำให้เท่ากับความสูงของหน้าจอ */
+
+  }
+
+  .divider-create-patient {
+    border: none;
+    height: 2px; 
+    background-color: #0d0d0d; /* or the color you want */
+    margin-top: 12px 0; /* Adjust the space around the line */
+  }
+  
+  .header-create-patient {
+    background-color: #164863;
+    color: white;
+    padding: 16px;
+    text-align: center;
+    font-size: 1.5em;
+    border-radius: 10px;
+    /* margin-bottom: 10px; */
+  }
+  
+  .card-create-patient {
+    background-color: #fff;
+    margin: 30px;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .name-create-patient {
+    font-size: 1.2em;
+    margin-bottom: 16px;
+  }
+
+  .userid-create-patient {
+    font-size: 1.2em;
+    margin-bottom: 16px;
+  }
+  
+  .actions-create-patient a {
+    display: block;
+    margin: 8px 0;
+    color: black;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+
+  .actions-row-create-patient {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px; /* Or whatever spacing you prefer */
+  }
+  
+  .actions-row-create-patient a {
+    margin-right: 10px; /* Adjust the space between the links if needed */
+  }
+  
+  /* Remove the margin from the last link in each row to prevent extra spacing */
+  .actions-row-create-patient a:last-child {
+    margin-right: 0;
+  }
+  
+  .actions-create-patient a:hover {
+    color: blue;
+  }
+  
+  .addButton-create-patient {
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+    line-height: 2px;
+    line-weight: 1px;
+    text-align: center; 
+    border: none;
+    font-size: 2em;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+    /* transform: translateX(-50%) translateY(-50%); */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .addButton-create-patient:focus {
+    outline: none;
+  }
+  

@@ -1,0 +1,13 @@
+.admin-header {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    background-color: #FFE8C8;
+}
+
+.admin-header img {
+    width: 200px;
+    height: 150px;
+}
+

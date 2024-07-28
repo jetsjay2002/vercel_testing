@@ -1,0 +1,109 @@
+.package-details{
+    margin: 4rem 6rem;
+    color: #2a2a2a;
+}
+
+/* .text-des p {
+    color: red;
+} */
+.button-details {
+    text-align: center;
+    width: 100%;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    /* background-color: #2563eb;  */
+    text-decoration: none;
+    margin: 0.5rem 0.5rem;
+}
+
+
+.about-container-details{
+    margin: 4rem 6rem;
+    text-align: start;
+}
+
+.about-container-details h1{
+    padding-bottom: 10rem;
+}
+
+.about-container-details p{
+    padding-bottom: 2rem;
+}
+
+
+
+/* .button{
+  text-align: center;
+    width: 90%;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    background-color: #2563eb;
+    color: white;
+    text-decoration: none;
+    margin: 0.5rem 0.5rem;
+} */
+
+.text-details{
+    margin-top: 50px; /* Adjust this value to match the height of your navbar */
+    color: #fff;
+}
+
+.package-details h1{
+    font-size: 3rem;
+}
+
+.packagecard-details{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.t-card-details{
+    width: 32%;
+    text-align: start;
+    box-shadow: 0 5px 25px 2px rgba(0, 0, 0, 0.11);
+    border-radius: 7px;
+    cursor: pointer;
+    padding: 1rem .8rem;
+}
+
+.t-image-details{
+    height: 200px;
+    overflow: hidden;
+    border-radius: 7px;
+
+}
+
+.t-image-details img{
+    width: 100%;
+    height: 100%;
+    transition: 0.3s ease-in-out;
+    border-radius: 7px;
+}
+
+.t-image-details:hover img{
+    transform: scale(1.3);
+}
+
+.t-card-details h4{
+    font-size: 1.3rem;
+    padding: .9rem 0 .2rem 0;
+}
+
+@media screen and (max-width: 850px){
+    .package-details{
+        margin: 4rem 2rem;
+    }
+    .packagecard-details{
+        flex-direction: column;
+    }
+    .t-card-details{
+        width: 100%;
+        margin-bottom: 1.5rem;
+    }
+    .about-container-details{
+        margin: 4rem 2rem;
+        text-align: start;
+    }
+    
+}

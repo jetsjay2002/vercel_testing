@@ -1,0 +1,111 @@
+/* .patinetlistbody-home {
+    margin-top: 208px;
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.patinetlistbody-sidebar {
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+}
+
+.patinetlistbody-content {
+    overflow: auto;
+    margin-left: 205px;
+    flex-grow: 1;
+    padding: 1.5rem;
+    background-color: #f8f9fa;
+}
+
+.patinetlistbody-home .patinetlistbody-content .patinetlistbody-col-md-3 {
+    border: 2px solid white;
+} */
+
+.patinetlistbody-home {
+    margin-top: 208px;
+    /* background-color: rgba(5, 104,57); */
+    margin-left: 100px;
+    /* width: 90%;
+    height: 100vh; */
+}
+
+/* .patinetlistbody-sidebar {
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+
+} */
+
+.patinetlistbody-content {
+    overflow-y: auto;
+    margin-left: 255px;
+    background-color: #f8f9fa;
+    /* width: 50; */
+    height: 100vh;
+    flex-grow: 1;
+}
+
+.patinetlistbody-home .patinetlistbody-content .patinetlistbody-col-md-3 {
+    border: 3px solid white;
+    
+}
+
+
+.patient-list-table {
+    flex-grow: 1;
+    overflow-y: auto;
+    padding: 1.5rem;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 0.5rem;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .reschedule-btn {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+  }
+  
+  .pre-journey {
+    color: #3b82f6;
+  }
+  
+  .confirmed {
+    color: #4caf50;
+  }
+  
+  .waiting-for-confirmation {
+    color: #fbbf24;
+  }
+
+/* .home {
+    margin-top: 208px;
+}
+
+.sidebar {
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+}
+
+.content {
+    overflow: auto;
+    margin-left: 205px;
+}
+
+.home .content .col-md-3 {
+    border: 2px solid white;
+} */
+
